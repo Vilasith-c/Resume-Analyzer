@@ -1,0 +1,35 @@
+.upload-box {
+  position: relative;
+  width: 450px;
+  padding: 25px;
+  margin: 20px auto;
+  border: 2px dashed #555;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  background: #2a2a2a;
+  color: white;
+}
+
+.upload-box.drag-over {
+  border-color: #4f8cff;
+  background: #2a2a2a80;
+}
+
+.file-input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.upload-subtitle {
+  font-size: 13px;
+  color: #b0b0b0;
+  margin-top: 5px;
+}
